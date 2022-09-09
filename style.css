@@ -9,7 +9,7 @@ main {
 
 aside {
   position: fixed;
-  right: 0%;
+  right: 10px;
   bottom: 50%;
   text-align: center;
   width: 180px;
@@ -22,14 +22,16 @@ footer {
   width: 100%;
   position: fixed;
   bottom: 0;
+  text-align: center;
 }
 
 section.bloco {
-  position: absolute;
+  position: fixed;
   top: 25%;
   left: 25%;
   right: 25%;
   bottom: 25%;
+  text-align: justify;
 
 }
 
@@ -39,7 +41,7 @@ button {
   font-family: serif;
 }
 
-aside.botao:active {
+ aside.botao:active {
   color: white;
   background-color: black;
 }
